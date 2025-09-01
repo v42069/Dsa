@@ -56,13 +56,29 @@ public class LinkedList {
         System.out.println("null");
     }
 
+    void reverse() {
+        Node prev = null;
+        Node current = head;
+        Node next = null;
+        while (current != null) {
+            next = current.next;    // 1. Remember next node
+            current.next = prev;    // 2. Reverse pointer
+            prev = current;         // 3. Move prev forward
+            current = next;         // 4. Move current forward
+        }
+        head = prev; // New head is the last node processed
+    }
+
+
     public static void main(String[] args) {
         LinkedList lk=new LinkedList();
         lk.insert(5);
         lk.insert(1);
         lk.insertFirst(10);
         lk.printLL();
-        lk.deleteByElement(1);
+//        lk.deleteByElement(1);
+        lk.printLL();
+        lk.reverse();
         lk.printLL();
     }
 }
