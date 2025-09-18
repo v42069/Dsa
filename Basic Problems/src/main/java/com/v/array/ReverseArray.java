@@ -1,4 +1,4 @@
-package org.com.v.array;
+package com.v.array;
 
 import java.util.Arrays;
 import java.util.Collections;

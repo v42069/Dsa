@@ -1,4 +1,4 @@
-package org.com.v.linked_list;
+package com.v.linked_list;
 
 
 class Node{

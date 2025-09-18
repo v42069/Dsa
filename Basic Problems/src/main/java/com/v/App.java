@@ -1,4 +1,4 @@
-package org.com.v;
+package com.v;
 
 /**
  * Hello world!

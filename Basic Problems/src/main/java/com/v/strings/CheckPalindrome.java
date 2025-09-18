@@ -1,4 +1,4 @@
-package org.com.v.strings;
+package com.v.strings;
 
 public class CheckPalindrome {
 
