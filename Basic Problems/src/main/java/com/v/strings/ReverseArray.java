@@ -1,4 +1,4 @@
-package com.v.array;
+package com.v.strings;
 
 import java.util.Arrays;
 import java.util.Collections;
