@@ -12,10 +12,9 @@ package com.v.array;
 
 import java.util.Arrays;
 //import java.util. Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
-public class P28 {
+
+public class LinearSearch {
 	public static void main(String[] args) {
 //		int[] a = {9,5,13,1,3};
 		int[] a = {5,7,9,13,32,33,42,54,56,88};
